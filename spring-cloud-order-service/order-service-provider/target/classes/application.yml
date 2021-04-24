@@ -1,0 +1,21 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+spring:
+  cloud:
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+      refresh:
+        enabled: true
+  kafka:
+    bootstrap-servers: 192.168.182.130:9092
+    consumer:
+      group-id: order-server
+  application:
+    name: order-service
+server:
+  port: 8082

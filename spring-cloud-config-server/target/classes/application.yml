@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/hello-kuang/spring-cloud-config.git
+          username: sunshinealways@163.com
+          password: kww!@#123
+
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+      refresh:
+        enabled: true
+  kafka:
+    bootstrap-servers: 192.168.182.130:9092
+    consumer:
+      group-id: config-server
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9090/eureka
+server:
+  port: 9091
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
