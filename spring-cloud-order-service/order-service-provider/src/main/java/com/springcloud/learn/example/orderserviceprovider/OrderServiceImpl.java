@@ -10,7 +10,7 @@ public class OrderServiceImpl implements OrderService {
     @Override
     public String order() {
         try{
-//            Thread.sleep(5000);
+            Thread.sleep(1000);
         }catch(Exception e){
             System.out.println(e.toString());
         }
