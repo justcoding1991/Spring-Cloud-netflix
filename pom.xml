@@ -18,6 +18,7 @@
         <module>spring-cloud-eureka-server</module>
         <module>spring-cloud-user-service</module>
         <module>spring-cloud-order-service</module>
+        <module>spring-cloud-gateway</module>
     </modules>
 
     <dependencyManagement>
