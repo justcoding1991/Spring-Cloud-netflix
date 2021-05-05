@@ -10,6 +10,7 @@
     <groupId>com.springcloud.learn.example</groupId>
     <artifactId>spring-cloud-user-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>spring-cloud-user-service</name>
     <description>Demo project for Spring Boot</description>
 

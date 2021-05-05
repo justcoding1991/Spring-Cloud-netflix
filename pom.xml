@@ -19,6 +19,7 @@
         <module>spring-cloud-user-service</module>
         <module>spring-cloud-order-service</module>
         <module>spring-cloud-gateway</module>
+        <module>HY-mall-commons</module>
     </modules>
 
     <dependencyManagement>

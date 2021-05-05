@@ -2,17 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="HY-core-tools" />
         <module name="order-serivce-api" />
         <module name="order-service-provider" />
         <module name="spring-cloud-config-server" />
         <module name="spring-cloud-eureka-server" />
         <module name="spring-cloud-gateway" />
-        <module name="spring-cloud-order-service" />
-        <module name="spring-cloud-user-service" />
         <module name="user-service-api" />
         <module name="user-service-provider" />
       </profile>
