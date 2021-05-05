@@ -31,7 +31,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HY-mall-commons/HY-core-tools/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-514">
+            <state relative-caret-position="-493">
               <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
             </state>
           </provider>
@@ -581,7 +581,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1620179263611" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1620181012313" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-cloud-order-service/order-service-provider" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -707,7 +707,7 @@
       <workItem from="1618751703201" duration="32685000" />
       <workItem from="1619406279635" duration="44543000" />
       <workItem from="1619707295195" duration="93000" />
-      <workItem from="1619707519476" duration="14737000" />
+      <workItem from="1619707519476" duration="15050000" />
     </task>
     <task id="LOCAL-00001" summary="模拟 hystrix注解实现">
       <created>1619530133161</created>
@@ -800,16 +800,23 @@
       <option name="project" value="LOCAL" />
       <updated>1620179244059</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="添加核心异常处理代码">
+      <created>1620181021358</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1620181021358</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116549000" />
+    <option name="totallyTimeSpent" value="116862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="955" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26007327" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25357142" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -819,7 +826,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297619" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.41309524" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.40301976" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -838,7 +845,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.1916972" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.18690476" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -1352,7 +1359,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HY-mall-commons/HY-core-tools/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-514">
+        <state relative-caret-position="-493">
           <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
         </state>
       </provider>
