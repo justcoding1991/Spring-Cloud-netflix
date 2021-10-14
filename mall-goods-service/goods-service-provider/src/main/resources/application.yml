@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: goods-service
+  datasource:
+    url: jdbc:mysql://localhost:3308/goodsdb?serverTimezone=UTC&useSSL=true
+    username: root
+    password: Everyday@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 8083
+mybatis:
+  type-aliases-package: com.springcloud.learn.goods.goodsserviceprovider.mapper.entity
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+logging:
+  level:
+    com.springcloud.learn.goods.goodsserviceprovider.mapper: debug
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9090/eureka
+

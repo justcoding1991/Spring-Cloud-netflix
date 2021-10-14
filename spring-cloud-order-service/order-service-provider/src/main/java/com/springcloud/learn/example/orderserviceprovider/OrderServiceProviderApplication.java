@@ -2,10 +2,11 @@ package com.springcloud.learn.example.orderserviceprovider;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-@ComponentScan(basePackages = "com.springcloud.learn.example")
+@EnableTransactionManagement
+@EnableFeignClients(basePackages = "com.springcloud.learn.example.client")
 @SpringBootApplication
 public class OrderServiceProviderApplication {
 

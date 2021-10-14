@@ -5,12 +5,12 @@ import com.springcloud.learn.example.dto.OrderDto;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class OrderServiceImpl implements OrderService {
+public class TestOrderServiceImpl implements OrderService {
 
     @Override
     public String order() {
         try{
-//            Thread.sleep(5000);
+            Thread.sleep(1000);
         }catch(Exception e){
             System.out.println(e.toString());
         }
